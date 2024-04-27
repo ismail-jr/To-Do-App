@@ -1,0 +1,60 @@
+
+
+body{
+    background: linear-gradient(135deg, #000000 , #061797);
+
+}
+h1{
+    color: white;
+}
+.to-do{
+    font-family: arial, sans serif;
+    margin: 100px 10px 100px 10px;
+    text-align: center;
+}
+button{
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s ease;
+    border: none;
+}
+.add-btn{
+    background: hsl(129, 50%, 40%);
+    color: white;
+    transition: 0.3s ease;
+}
+.add-btn:hover{
+    background: hsl(129, 50%, 30%);
+}
+input[type="text"]{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+ol{
+    padding: 0%;
+}
+li{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 3px solid hsl(0, 0%, 30%);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.text{
+    flex: 1;
+}
+.moveUp-btn, .moveDown-btn{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
